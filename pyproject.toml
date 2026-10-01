@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "csv-key-audit"
+version = "0.1.0"
+description = "Composite CSV key preflight without exposing row values"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "csv-key-audit contributors"}]
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3"]
+[project.scripts]
+csv-key-audit = "csv_key_audit.__main__:cli"
+[project.urls]
+Repository = "https://github.com/shkyyy18/csv-key-audit"
+[tool.setuptools.packages.find]
+where = ["src"]

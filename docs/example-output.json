@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "synthetic_demo": true,
+  "keys": [
+    "region",
+    "id"
+  ],
+  "records": 5,
+  "distinct_keys": 4,
+  "duplicate_groups": [
+    {
+      "group": 1,
+      "records": [
+        1,
+        2
+      ],
+      "count": 2
+    }
+  ],
+  "empty_key_records": [
+    {
+      "record": 4
+    }
+  ],
+  "edge_whitespace": [
+    {
+      "record": 5,
+      "columns": [
+        "id"
+      ]
+    }
+  ],
+  "finding_count": 3,
+  "boundary": "Exact strings, no normalization. Findings count groups + empty rows + whitespace rows; categories may overlap. Key values never exported."
+}
